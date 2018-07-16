@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>株式会社サンプル</title>
+  <title>COMPANY INFO | 株式会社サンプル</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -26,6 +26,15 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.0';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  
   <header>
   <div id="header_in" class="container">
     <div class="row">
@@ -87,7 +96,7 @@
                         </tr>
                         <tr>
                             <th>代表取締役</th>
-                            <td>煌木 太郎</td>
+                            <td>煌木　太郎</td>
                         </tr>
                         <tr>
                             <th>従業員数</th>
@@ -95,7 +104,7 @@
                         </tr>
                         <tr>
                             <th>所在地</th>
-                            <td>東京都○○区○○町560-0-0</td>
+                            <td>東京都◯◯区◯◯町560-0-0</td>
                         </tr>
                         <tr>
                             <th>TEL</th>
@@ -111,8 +120,8 @@
                                 ・デザイン事業部<br>
                                 ・インターネット関連事業部<br>
                                 ・ソフトウェア開発事業部<br>
-                                ・○○事業部<br>
-                                ・○○事業部
+                                ・◯◯事業部<br>
+                                ・◯◯事業部
                             </td>
                         </tr>
                     </tbody>
@@ -120,7 +129,7 @@
             </div>
             <div id="sidebar" class="three columns">
                 <div class="pc_sidemenu">
-                    <h3>contents</h3>
+                    <h3>Contents</h3>
                     <ul>
                         <li>
                             <a href="index.html">TOPページ</a>
@@ -131,9 +140,10 @@
                         <li>
                             <a href="company.html">会社概要</a>
                         </li>
+                    </ul>
                 </div>
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=211&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="211" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                </div>
+                <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+              </div>
         </div>
     </div>   
 </div>
@@ -191,4 +201,6 @@
 </script>
 
 </body>
+
+
 </html>
